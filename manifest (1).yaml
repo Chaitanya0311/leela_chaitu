@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world-container
-        image: ishtae.azurecr.io/new-docker:latest
+        image: docker pull poise.azurecr.io/new-docker:latest
         ports:
         - containerPort: 8080
         env:
